@@ -1,0 +1,46 @@
+* {
+    font-family: helvetica;
+    color: white;
+	background-color: darkgray;
+}
+
+
+a {
+    border-width: medium;
+    border-style: solid;
+    text-decoration: none;
+    padding: 7px;
+}
+
+p {
+	font-size: 16pt;
+}
+
+h1 {
+	padding: 10px;
+	padding-left: 20px;
+}
+
+footer {
+	text-align: center;
+}
+
+.h1 {
+	border-width: thick;
+	border-style: dashed;
+	color: lightgray;
+}
+
+a:hover {
+	font-size: 14pt;
+	color: black;
+	width: 200px;
+	height: 200px;
+	transition: 3s;
+}
+
+h1:hover {
+	font-size: 40pt;
+	transition: 3s;
+}
+
