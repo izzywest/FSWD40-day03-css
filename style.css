@@ -13,20 +13,22 @@ a {
 }
 
 p {
-	font-size: 16pt;
+	font-size: 12pt;
 }
 
 h1 {
 	padding: 10px;
 	padding-left: 20px;
+	letter-spacing: 3px;
 }
 
-footer {
-	text-align: center;
+h2 {
+	color: cyan;
+	letter-spacing: 3px;
 }
 
 .h1 {
-	border-width: thick;
+	border-width: medium;
 	border-style: dashed;
 	color: lightgray;
 }
@@ -42,5 +44,27 @@ a:hover {
 h1:hover {
 	font-size: 40pt;
 	transition: 3s;
+	color: cyan;
 }
 
+#left {
+	float: left;
+	padding-left: 120px;
+	padding-bottom: 30px;
+}
+
+#right {
+	float: right;
+	padding-right: 230px;
+	padding-bottom: 30px;
+}
+
+#footer {
+	text-align: center;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding-top: 10px;	
+	background-color: black;
+}
